@@ -1,0 +1,16 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "ionictuto",
+	"bundledWebRuntime": false,
+	"npmClient": "npm",
+	"webDir": "www",
+	"plugins": {
+		"SplashScreen": {
+			"LaunchShowDuration": 8
+		}
+	},
+	"cordova": {},
+	"server": {
+		"cleartext": true
+	}
+}

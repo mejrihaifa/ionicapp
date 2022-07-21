@@ -1,6 +1,17 @@
 {
-	"appId": "io.ionic.starter",
-	"appName": "ionictuto",
-	"webDir": "www",
-	"bundledWebRuntime": false
-}
+  "appId" : "io.ionic.starter",
+  "appName": "ionictuto",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www",
+  "plugins": {
+    "SplashScreen": {
+      "LaunchShowDuration": 8
+    }
+    },
+    "cordova": {},
+    "server": {
+      "url": "http://192.168.1.14:8101",
+      "cleartext": true
+    }
+  }
